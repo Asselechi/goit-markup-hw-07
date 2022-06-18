@@ -89,8 +89,8 @@
   fill: #757575;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .mail:hover &,
-  .mail:focus & {
+  .menu__mail:hover &,
+  .menu__mail:focus & {
     fill: var(--accent-color);
   }
 }
@@ -116,8 +116,8 @@
   fill: #757575;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .tel-number:hover &,
-  .tel-number:focus & {
+  .menu__tel-number:hover &,
+  .menu__tel-number:focus & {
     fill: var(--accent-color);
   }
 }
