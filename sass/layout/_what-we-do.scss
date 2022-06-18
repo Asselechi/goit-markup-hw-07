@@ -1,8 +1,8 @@
-.list-what-we-do {
+.what-we-do__list {
   display: flex;
 }
 
-.card-what-we-do {
+.what-we-do__card {
   flex-basis: calc((100% - 90px) / 3);
 
   &:not(:nth-child(3n)) {
@@ -10,7 +10,7 @@
   }
 }
 
-.thumb {
+.what-we-do__thumb {
   position: relative;
 
   & > .label-text {

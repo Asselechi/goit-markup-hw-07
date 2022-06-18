@@ -1,12 +1,12 @@
-.list-link-company {
+.companies {
   display: flex;
 }
 
-.list-company:not(:last-child) {
+.companies__list:not(:last-child) {
   margin-right: 30px;
 }
 
-.square {
+.companies__list_square {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,12 +22,12 @@
   }
 }
 
-.company-list-icon {
+.companies__list_icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .square:hover &,
-  .square:focus & {
+  .companies__list_square:hover &,
+  .companies__list_square:focus & {
     fill: var(--accent-color);
   }
 }
